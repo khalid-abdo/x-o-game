@@ -49,6 +49,12 @@
     {
         finish(3,5,7)
     }
+    else if(squre[1]!=''&&squre[2]!=''&&squre[3]!=''&&squre[4]!=''&&squre[5]!=''&&squre[6]!=''&&squre[7]!=''&&squre[8]!=''&&squre[9]!='')
+    {
+        title.innerHTML='Draw'
+        title.style.color='red'
+        setTimeout(function(){location.reload()},2000)
+    }
  }
 
  function game(id){
