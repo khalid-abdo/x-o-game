@@ -11,7 +11,6 @@
     setTimeout(function(){location.reload()},4000)
  }
  
-
  function winner(){
     for(let i=1;i<10;i++)
     {
