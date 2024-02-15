@@ -58,6 +58,7 @@
     }
  }
 
+
  function game(id){
     let element =document.getElementById(id)
     if(mood=='x' && element.innerHTML ==''){
