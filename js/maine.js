@@ -2,6 +2,7 @@
  let mood = 'x'
  let squre =[];
 
+
  function finish(num1,num2,num3){
     title.innerHTML=`${squre[num1]} winner`;
     document.getElementById('item'+num1).style.background='red';
